@@ -12,3 +12,10 @@
 `git log` Mostra os commits anterior    
 `git diff`Mostra a modificação linha a linha do arquivo   
 `git diff --name-only` Mostra apenas os arquivos que foram modificado   
+
+   ---   
+### Tipos de restore
+`git restore` acompanhado do tipo de restore e id do comit
+**`git restore --soft`** - restara os arquivos fazendo e da merge com remoto
+**`git restore --hard`**  - restaura e substitui o remoto
+**`git restore --mixed`**  - restauta porem nao adiciona ao repositorio local
